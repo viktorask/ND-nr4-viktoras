@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #ffdddd;
+    background-color: #f2e1e1;
     font-family: "Raleway", sans-serif;
     letter-spacing: 4px;
     line-height: 1.5;
@@ -173,6 +173,7 @@ header div .paryskintas {
 }
 
 .penktas {
+    background-color: #ffdddd;
     color: #000;
     padding: 64px 16px;
     clear: both;
