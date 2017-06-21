@@ -39,7 +39,7 @@ header div .paryskintas {
     font-weight: bold;
 }
 
-.antras {
+#us {
     padding: 64px 16px;
     filter: grayscale(50%);
 
@@ -91,7 +91,7 @@ header div .paryskintas {
 
 }
 
-.antras a:hover, .penktas a:hover, .meniu1 a:hover {
+#us a:hover, #rsvp a:hover, .meniu1 a:hover {
     background-color: grey;
 }
 
@@ -127,7 +127,7 @@ header div .paryskintas {
 
 }
 
-.ketvirtas {
+#wedding {
     padding: 64px 16px;
     filter: grayscale(50%);
 }
@@ -165,13 +165,13 @@ header div .paryskintas {
     margin: 15px 0;
 }
 
-.penktas {
+#rsvp {
     background-color: #ffdddd;
     padding: 64px 16px;
     clear: both;
 }
 
-.penktas h1 {
+#rsvp h1 {
     font-weight: 400;
     margin: 10px 0;
     font-size: 36px;
@@ -179,14 +179,14 @@ header div .paryskintas {
 
 }
 
-.penktas p {
+#rsvp p {
     font-size: 18px;
     line-height: 2;
     text-align: center;
 
 }
 
-.penktas a {
+#rsvp a {
     padding: 20px 60px;
     color: #fff;
     background-color: #f44336;
