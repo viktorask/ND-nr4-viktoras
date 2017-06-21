@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    background-color: #ffdddd;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 4px;
+    line-height: 1.5;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(50%);
+}
+
+header div {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+header div h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+header div h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+header div .paryskintas {
+    font-weight: bold;
+}
+
+.antras {
+    color: #000;
+    padding: 64px 16px;
+    filter: grayscale(50%);
+
+}
+
+.antras1, .ketvirtas1 {
+    max-width: 980px;
+    margin: auto;
+}
+
+.antras1 h1 {
+    color: #757575;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.antras1 p {
+    line-height: 2;
+    color: #000;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    text-align: justify;
+
+}
+
+.antras1 a {
+    text-align: center;
+    line-height: 2;
+    margin: 15px 0;
+    color: #fff;
+    background-color: #000;
+    padding: 20px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+
+.antras a:hover, .penktas a:hover, .meniu1 a:hover {
+    background-color: grey;
+}
+
+.trecias {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-sizing: inherit;
+    display: block;
+
+}
+
+.trecias img {
+    filter: none;
+}
+
+.trecias1 {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trecias1 h1 {
+    font-size: 64px;
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+
+.trecias1 h2 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+
+}
+
+.ketvirtas {
+    color: #000;
+    padding: 64px 16px;
+    filter: grayscale(50%);
+}
+
+.ketvirtas1 h1 {
+    color: #757575;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.ketvirtas2, .ketvirtas3 {
+    width: 49.99999%;
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.ketvirtas2 h2, .ketvirtas3 h2 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
+}
+
+.ketvirtas2 p, .ketvirtas3 p {
+    line-height: 2;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+}
+
+.penktas {
+    color: #000;
+    padding: 64px 16px;
+    clear: both;
+}
+
+.penktas h1 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 1.5;
+
+}
+
+.penktas p {
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 4px;
+
+}
+
+.penktas a {
+    padding: 20px 60px;
+    color: #fff;
+    background-color: #f44336;
+    opacity: 0.60;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+footer a {
+
+    color: inherit;
+    background-color: transparent;
+    cursor: auto;
+    text-decoration: underline;
+    line-height: 2;
+    box-sizing: inherit;
+}
+
+footer a:hover {
+    color: green;
+}
+
+.meniu {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: inherit;
+    display: block;
+}
+
+.meniu1 {
+    color: #000;
+    background-color: #fff;
+    padding: 8px 16px;
+    text-align: center;
+    opacity: 0.75;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.meniu1 a {
+    width: 22%;
+    white-space: normal;
+    padding: 8px 16px;
+    float: left;
+    border: none;
+    outline: none;
+    display: block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+
+a.juodas:hover {
+    background-color: black;
+    color: white;
+}
+
+.apacia {
+    margin-bottom: 55px;
+
+}
